@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+body
+{
+  background-color:#7c7069;
+}
+#calculator
+{
+   width: 280px;
+  margin: 0 auto;
+  margin-top: 40px;
+  height:  370px;
+  background-color: #c5beb9;
+  border-radius: 70px/25px;
+ -webkit-box-shadow: 0px 5px 14px ;
+ box-shadow: 0px 5px 14px ;
+  text-align: center;
+}
+#resultscreen
+{
+  width:  230px;
+  height: 50px;
+  background: #b5b596;
+  margin:  auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: inset 2px -2px 8px #969669;
+  color: black;
+  font-size: 38px;
+  text-align: right;
+  font-weight: bold;
+}
+#tapp
+{
+  display:table;
+  margin:0 auto;
+  margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+button
+{
+  width: 55px;
+  height: 35px;
+  border-radius: 20px/80px;
+  margin-top: 15px;
+  color: white;
+  background-color: #060613;
+   }
+button:focus {outline:0;}
+.pnt
+{
+  background-color: #cc2900;
+}
+.opp
+{
+  border: 2px solid #b36b00;
+  font-size:  18px;
+  }
+#cmplus
+{
+ height: 85px;
+  float: right;
+  margin-right: 13%;
+  margin-left: -13%;
+}
+.row:last-child
+{
+  float:  left;
+  margin-top: -18%;
+  margin-left: 9%;
+}
